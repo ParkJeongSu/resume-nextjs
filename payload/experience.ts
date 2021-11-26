@@ -20,16 +20,23 @@ const experience: IExperience.Payload = {
         '중국 출장(상해, 창사)',
         'on-premise 환경에서 mantis 및 svn Server 구축',
       ],
-      skillKeywords: ['JAVA', 'C#', 'Oracle', 'Linux', 'infragistic','Mantis','Confluence','tibrv'],
+      skillKeywords: [
+        'JAVA',
+        'C#',
+        'Oracle',
+        'Linux',
+        'infragistic',
+        'Mantis',
+        'Confluence',
+        'tibrv',
+      ],
     },
     {
       title: '티켓몬스터',
       position: '인턴',
       startedAt: '2017-06',
       endedAt: '2017-08',
-      descriptions: [
-        'Angular 사용한 쇼핑몰 ui 구현',
-      ],
+      descriptions: ['Angular 사용한 쇼핑몰 ui 구현'],
       skillKeywords: ['javascript', 'Angular'],
     },
     {
@@ -37,9 +44,7 @@ const experience: IExperience.Payload = {
       position: '인턴',
       startedAt: '2016-09',
       endedAt: '2016-11',
-      descriptions: [
-        'javascript 를 사용한 sk 내부시스템 ui 구현',
-      ],
+      descriptions: ['javascript 를 사용한 sk 내부시스템 ui 구현'],
       skillKeywords: ['javascript'],
     },
   ],

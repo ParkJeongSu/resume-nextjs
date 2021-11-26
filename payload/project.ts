@@ -22,8 +22,11 @@ const project: IProject.Payload = {
           content: 'Client',
           weight: 'MEDIUM',
           descriptions: [
-            { content: 'winform 을 활용한 MES clinet 개발 - 기준정보 설정 및 history 조회기능'},
-            { content: 'wpf 을 활용한 FMC clinet 개발 - 실시간으로 서버의 응답을 받아 설비의 상태 확인 시스템'},
+            { content: 'winform 을 활용한 MES clinet 개발 - 기준정보 설정 및 history 조회기능' },
+            {
+              content:
+                'wpf 을 활용한 FMC clinet 개발 - 실시간으로 서버의 응답을 받아 설비의 상태 확인 시스템',
+            },
           ],
         },
       ],
@@ -66,8 +69,11 @@ const project: IProject.Payload = {
           content: 'Client',
           weight: 'MEDIUM',
           descriptions: [
-            { content: 'winform 을 활용한 MES clinet 개발 - 기준정보 설정 및 history 조회기능'},
-            { content: 'wpf 을 활용한 FMC clinet 개발 - 실시간으로 서버의 응답을 받아 설비의 상태 확인 시스템'},
+            { content: 'winform 을 활용한 MES clinet 개발 - 기준정보 설정 및 history 조회기능' },
+            {
+              content:
+                'wpf 을 활용한 FMC clinet 개발 - 실시간으로 서버의 응답을 받아 설비의 상태 확인 시스템',
+            },
           ],
         },
       ],

@@ -1,6 +1,6 @@
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faBell } from '@fortawesome/free-regular-svg-icons';
-import { faGithub, faFacebook, faYoutube, faBlogger } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faFacebook, faBlogger } from '@fortawesome/free-brands-svg-icons';
 import image from '../asset/PARKJEONGSU.jpg';
 import { IProfile } from '../component/profile/IProfile';
 
@@ -41,7 +41,7 @@ const profile: IProfile.Payload = {
     },
   ],
   notice: {
-    title: "휴대전화나 페이스북 메시지 아닌 이메일로 연락 부탁드립니다.",
+    title: '휴대전화나 페이스북 메시지 아닌 이메일로 연락 부탁드립니다.',
     icon: faBell,
   },
 };
