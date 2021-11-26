@@ -42,6 +42,7 @@ const project: IProject.Payload = {
             { content: 'outOfMemory가 발생하는 부분 (MAT) 를 사용한 java heap dump 분석' },
             { content: 'AWR(오라클 통계)를 활용한 query 분석 및 query refactoring' },
             { content: 'code Refactoring' },
+            { content: 'Zabbix 를 활용한 서버 정검 및 db check' },
           ],
         },
       ],
@@ -49,7 +50,7 @@ const project: IProject.Payload = {
     {
       title: 'ShangHai EDO MES ProJect',
       startedAt: '2018-05',
-      endedAt: '2019-06',
+      endedAt: '2019-09',
       where: 'Aim system',
       descriptions: [
         { content: 'ShangHai EDO OLED display 공장 MES System' },
