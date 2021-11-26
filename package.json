@@ -1,6 +1,6 @@
 {
   "name": "resume-nextjs",
-  "lastestUpdatedAt": "2021-09-01",
+  "lastestUpdatedAt": "2021-11-26",
   "version": "1.1.0",
   "description": "Static HTML based RESUME made with next.js",
   "main": "index.js",
@@ -28,9 +28,9 @@
     "next"
   ],
   "author": {
-    "name": "Yowu Yu",
-    "email": "me@yowu.dev",
-    "url": "https://yowu.dev"
+    "name": "PARK JEONGSU",
+    "email": "pjs91_marrow@naver.com",
+    "url": "https://jeongsu.tistory.com/"
   },
   "contributors": [],
   "license": "MIT",

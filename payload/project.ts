@@ -4,41 +4,71 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
-      title: 'Mashup API Development',
-      startedAt: '2018-02',
-      where: 'Foo Company',
+      title: '長沙 changesha HKC MES Project',
+      startedAt: '2020-10',
+      endedAt: '2021-09',
+      where: 'Aim system',
       descriptions: [
-        { content: 'Development and operation of Mashup API of Aggregation Layer' },
+        { content: '長沙 changesha HKC MES Project' },
         {
-          content: 'Add Foo Feature in 2019',
+          content: 'Server Side',
           weight: 'MEDIUM',
           descriptions: [
-            { content: 'Integer ut libero eu libero mattis rutrum at at urna' },
-            { content: 'Integer non turpis ante' },
+            { content: 'Java를 활용한 MES Server 개발 - 공장 자동화 시나리오' },
+            { content: 'db 테이블 설계 및 SQL' },
           ],
         },
         {
-          content: 'Launched Bar Service in 2018',
+          content: 'Client',
           weight: 'MEDIUM',
           descriptions: [
-            { content: 'Suspendisse vestibulum odio id libero facilisis gravida' },
-            {
-              content: 'In ipsum est, pellentesque vestibulum tortor eu, bibendum imperdiet metus',
-            },
+            { content: 'winform 을 활용한 MES clinet 개발 - 기준정보 설정 및 history 조회기능'},
+            { content: 'wpf 을 활용한 FMC clinet 개발 - 실시간으로 서버의 응답을 받아 설비의 상태 확인 시스템'},
           ],
         },
       ],
     },
     {
-      title: 'Lorem ipsum Project',
-      startedAt: '2016-10',
-      endedAt: '2017-11',
-      where: 'Bar Co., LTD.',
+      title: 'ShangHai EDO MES ProJect Warranty',
+      startedAt: '2019-09',
+      endedAt: '2020-09',
+      where: 'Aim system',
       descriptions: [
-        { content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit' },
-        { content: 'Integer massa magna, feugiat commodo arcu sed, sagittis sollicitudin tortor' },
-        { content: 'Nullam diam ex, interdum nec lacus vel, ultrices pretium sapien' },
-        { content: 'Proin bibendum non nibh eu aliquet' },
+        { content: 'ShangHai EDO OLED display 공장 MES System Warranty' },
+        {
+          content: '유지보수',
+          weight: 'MEDIUM',
+          descriptions: [
+            { content: 'outOfMemory가 발생하는 부분 (MAT) 를 사용한 java heap dump 분석' },
+            { content: 'AWR(오라클 통계)를 활용한 query 분석 및 query refactoring' },
+            { content: 'code Refactoring' },
+          ],
+        },
+      ],
+    },
+    {
+      title: 'ShangHai EDO MES ProJect',
+      startedAt: '2018-05',
+      endedAt: '2019-06',
+      where: 'Aim system',
+      descriptions: [
+        { content: 'ShangHai EDO OLED display 공장 MES System' },
+        {
+          content: 'Server Side',
+          weight: 'MEDIUM',
+          descriptions: [
+            { content: 'Java를 활용한 MES Server 개발 - 공장 자동화 시나리오' },
+            { content: 'db 테이블 설계 및 SQL' },
+          ],
+        },
+        {
+          content: 'Client',
+          weight: 'MEDIUM',
+          descriptions: [
+            { content: 'winform 을 활용한 MES clinet 개발 - 기준정보 설정 및 history 조회기능'},
+            { content: 'wpf 을 활용한 FMC clinet 개발 - 실시간으로 서버의 응답을 받아 설비의 상태 확인 시스템'},
+          ],
+        },
       ],
     },
   ],

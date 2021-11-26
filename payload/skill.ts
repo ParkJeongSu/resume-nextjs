@@ -5,19 +5,19 @@ const backend: ISkill.Skill = {
   items: [
     {
       title: 'Node.js',
-      level: 3,
+      level: 1,
     },
     {
       title: 'AWS',
-      level: 3,
+      level: 1,
     },
     {
       title: 'PHP',
-      level: 2,
+      level: 1,
     },
     {
       title: 'Java',
-      level: 1,
+      level: 3,
     },
     {
       title: 'Python',
@@ -35,19 +35,11 @@ const database: ISkill.Skill = {
   items: [
     {
       title: 'MySQL',
-      level: 3,
+      level: 1,
     },
     {
       title: 'Oracle',
-      level: 2,
-    },
-    {
-      title: 'Redis',
-      level: 2,
-    },
-    {
-      title: 'MongoDB',
-      level: 1,
+      level: 3,
     },
   ],
 };
@@ -55,10 +47,6 @@ const database: ISkill.Skill = {
 const frontend: ISkill.Skill = {
   category: 'Front-end',
   items: [
-    {
-      title: 'Next.js',
-      level: 2,
-    },
     {
       title: 'React.js',
       level: 2,
@@ -70,6 +58,14 @@ const frontend: ISkill.Skill = {
     {
       title: 'HTML/CSS',
       level: 2,
+    },
+    {
+      title: 'C#',
+      level: 2,
+    },
+    {
+      title: 'Electron',
+      level: 1,
     },
   ],
 };
@@ -84,16 +80,25 @@ const etc: ISkill.Skill = {
       title: 'Vim',
     },
     {
-      title: 'Security',
-    },
-    {
       title: 'VS Code',
     },
     {
-      title: 'Jira',
+      title: 'Mantis',
     },
     {
       title: 'Confluence',
+    },
+    {
+      title: 'DBeaver',
+    },
+    {
+      title: 'MES',
+    },
+    {
+      title: 'eclipse',
+    },
+    {
+      title: 'visual studio',
     },
   ],
 };
