@@ -5,27 +5,27 @@ const backend: ISkill.Skill = {
   items: [
     {
       title: 'Node.js',
-      level: 1,
+      // level: 1,
     },
     {
       title: 'AWS',
-      level: 1,
+      // level: 1,
     },
     {
       title: 'PHP',
-      level: 1,
+      // level: 1,
     },
     {
       title: 'Java',
-      level: 3,
+      // level: 3,
     },
     {
       title: 'Python',
-      level: 1,
+      // level: 1,
     },
     {
       title: 'C/C++',
-      level: 1,
+      // level: 1,
     },
   ],
 };
@@ -35,11 +35,11 @@ const database: ISkill.Skill = {
   items: [
     {
       title: 'MySQL',
-      level: 1,
+      // level: 1,
     },
     {
       title: 'Oracle',
-      level: 3,
+      // level: 3,
     },
   ],
 };
@@ -49,23 +49,23 @@ const frontend: ISkill.Skill = {
   items: [
     {
       title: 'React.js',
-      level: 2,
+      // level: 2,
     },
     {
       title: 'javascript',
-      level: 2,
+      // level: 2,
     },
     {
       title: 'HTML/CSS',
-      level: 2,
+      // level: 2,
     },
     {
       title: 'C#',
-      level: 2,
+      // level: 2,
     },
     {
       title: 'Electron',
-      level: 1,
+      // level: 1,
     },
   ],
 };
@@ -99,6 +99,9 @@ const etc: ISkill.Skill = {
     },
     {
       title: 'visual studio',
+    },
+    {
+      title: 'git',
     },
   ],
 };

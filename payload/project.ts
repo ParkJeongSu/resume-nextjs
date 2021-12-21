@@ -9,7 +9,6 @@ const project: IProject.Payload = {
       endedAt: '2021-09',
       where: 'Aim system',
       descriptions: [
-        { content: '長沙 changesha HKC MES Project' },
         {
           content: 'Server Side',
           weight: 'MEDIUM',
@@ -29,15 +28,23 @@ const project: IProject.Payload = {
             },
           ],
         },
+        {
+          content: '기타',
+          weight: 'MEDIUM',
+          descriptions: [
+            { content: '트러블 슈팅 : ap log ,db history, oracle AWR 분석' },
+            { content: 'mantis 관리자 및 프로젝트 이슈 confluence 기록' },
+            { content: '고객과 직접 소통 요구사항 분석' },
+          ],
+        },
       ],
     },
     {
-      title: 'ShangHai EDO MES ProJect Warranty',
+      title: 'ShangHai EDO MES Project Warranty',
       startedAt: '2019-09',
       endedAt: '2020-09',
       where: 'Aim system',
       descriptions: [
-        { content: 'ShangHai EDO OLED display 공장 MES System Warranty' },
         {
           content: '유지보수',
           weight: 'MEDIUM',
@@ -48,15 +55,19 @@ const project: IProject.Payload = {
             { content: 'Zabbix 를 활용한 서버 정검 및 db check' },
           ],
         },
+        {
+          content: '기타',
+          weight: 'MEDIUM',
+          descriptions: [{ content: 'PM 역할 - 교통비 및 프로젝트 비용 정산' }],
+        },
       ],
     },
     {
-      title: 'ShangHai EDO MES ProJect',
+      title: 'ShangHai EDO MES Project',
       startedAt: '2018-05',
       endedAt: '2019-09',
       where: 'Aim system',
       descriptions: [
-        { content: 'ShangHai EDO OLED display 공장 MES System' },
         {
           content: 'Server Side',
           weight: 'MEDIUM',
@@ -74,6 +85,15 @@ const project: IProject.Payload = {
               content:
                 'wpf 을 활용한 FMC clinet 개발 - 실시간으로 서버의 응답을 받아 설비의 상태 확인 시스템',
             },
+          ],
+        },
+        {
+          content: '기타',
+          weight: 'MEDIUM',
+          descriptions: [
+            { content: '트러블 슈팅 : ap log ,db history, oracle AWR 분석' },
+            { content: 'mantis 관리자 및 프로젝트 이슈 confluence 기록' },
+            { content: '고객과 직접 소통 요구사항 분석' },
           ],
         },
       ],
